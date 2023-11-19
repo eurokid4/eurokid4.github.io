@@ -51,29 +51,29 @@ const config = {
   //  'Hopscotch',
     'Robotics',
   ],
-  experiences: [
-    {
-      company: 'Company Name',
-      position: 'Position',
-      from: 'September 2021',
-      to: 'Present',
-      companyLink: 'https://example.com',
-    },
-    {
-      company: 'Company Name',
-      position: 'Position',
-      from: 'July 2019',
-      to: 'August 2021',
-      companyLink: 'https://example.com',
-    },
+  // experiences: [
+  //   {
+  //     company: 'Company Name',
+  //     position: 'Position',
+  //     from: 'September 2021',
+  //     to: 'Present',
+  //     companyLink: 'https://example.com',
+  //   },
+  //   {
+  //     company: 'Company Name',
+  //     position: 'Position',
+  //     from: 'July 2019',
+  //     to: 'August 2021',
+  //     companyLink: 'https://example.com',
+  //   },
   ],
   certifications: [
-    {
-      name: 'Lorem ipsum',
-      body: 'Lorem ipsum dolor sit amet',
-      year: 'March 2022',
-      link: 'https://example.com'
-    },
+    // {
+    //   name: 'Lorem ipsum',
+    //   body: 'Lorem ipsum dolor sit amet',
+    //   year: 'March 2022',
+    //   link: 'https://example.com'
+    // },
   ],
   education: [
     {
@@ -82,12 +82,12 @@ const config = {
       from: '2019',
       to: 'Now',
     },
-    {
-      institution: 'Institution Name',
-      degree: 'Degree',
-      from: '2012',
-      to: '2014',
-    },
+    // {
+    //   institution: 'Institution Name',
+    //   degree: 'Degree',
+    //   from: '2012',
+    //   to: '2014',
+    // },
   ],
 
   // TODO: Add external projects
@@ -124,7 +124,7 @@ const config = {
     snippetVersion: 6,
   },
   themeConfig: { //TODO: Change the theme of the website to your liking
-    defaultTheme: 'cyberpunk',
+    defaultTheme: 'cmyk',
 
     // Hides the switch in the navbar
     // Useful if you want to support a single color mode
