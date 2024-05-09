@@ -48,7 +48,7 @@ const config = {
     'CSS',
     'HTML',
     'JS',
-    'Powershell'
+    'Powershell',
     'MakeCode',
     'ScratchJr',
   //  'Hopscotch',
