@@ -36,7 +36,7 @@ const config = {
   },
   resume: {
     fileUrl:
-      'https://docs.google.com/document/d/1t5djuaWYHeZ05ixnyJcScMPIqLQeTvuj1dFgPon97D4/edit?usp=drive_link', // Empty fileUrl will hide the `Download Resume` button.
+      'https://docs.google.com/document/d/11fn-1rRps4bs_aIb9u_AlBy7bY827xCq/edit?usp=sharing&ouid=110324821565809904945&rtpof=true&sd=true', // Empty fileUrl will hide the `Download Resume` button.
   },
   skills: [
     'Scratch',
