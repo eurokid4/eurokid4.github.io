@@ -110,10 +110,10 @@ const GitProfile = ({ config }) => {
                   const dateB = new Date(b.history.modified);
 
                   // Sort in ascending order
-                  return dateA - dateB;
+                  // return dateA - dateB;
 
                   // Sort in descending order (most recent first)
-                  // return dateB - dateA;
+                  return dateB - dateA;
                 }
               })
               .slice(0, sanitizedConfig.scratch.limit);

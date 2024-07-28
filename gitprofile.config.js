@@ -4,7 +4,7 @@ const config = {
   github: {
     username: 'eurokid4', //TODO: Your GitHub org/user name. (Required)
     sortBy: 'stars', // stars | updated
-    limit: 20, // How many projects to display.
+    limit: 6, // How many projects to display.
     exclude: {
       forks: false, // Forked projects will not be displayed if set to true.
       projects: [], // These projects will not be displayed. example: ['my-project1', 'my-project2']
@@ -12,8 +12,8 @@ const config = {
   },
   scratch: {
     username: 'eurokid4', //TODO: Your Scratch username. (Required)
-    limit: 120, // How many projects to display; maximum 20
-    sortBy: 'views', // date | views | remixes
+    limit: 6, // How many projects to display; maximum 20
+    sortBy: 'date', // date | views | remixes
     corsProxy: "https://scratchapicors-git-main-eurokid4s-projects.vercel.app/" //TODO: Enter your CORS Proxy here
   },
   social: { //TODO: Add in Socials
@@ -47,29 +47,44 @@ const config = {
     'Git',
     'CSS',
     'HTML',
-    'JS',
-    'Powershell',
+    'C',
     'MakeCode',
-    'ScratchJr',
   //  'Hopscotch',
     'Robotics',
-    'Typescript',
   ],
-  experiences: [
-    {
-      company: '-',
-      position: '-',
-      from: '-',
-      to: '-',
-      companyLink: '-',
-    },
-  ],
+  // experiences: [
+  //   {
+  //     company: '-',
+  //     position: '-',
+  //     from: '-',
+  //     to: '-',
+  //     companyLink: '-',
+  //   },
+  // ],
   certifications: [
     {
-      name: '-',
-      body: '-t',
-      year: '-',
-      link: '-'
+      name: 'Hwa Chong Infocomm Challenge',
+      body: 'The aim of the HCIC is to generate greater interest in the field of info-communications among students in primary schools. HCIC is also an excellent opportunity for the youth to identify and explore their talent in programming, coding and robotics, and to develop important skills such as computational thinking and analytical thinking. ',
+      year: '2024',
+      link: 'https://drive.google.com/file/d/1sgMi1yRxAhcoQhU2eQS_26j7ZHIMllpM/view?usp=sharing'
+    },
+    {
+      name: 'National Maths Olympiad Of Singapore',
+      body: 'NMO∑ aims to: Generate greater interest in Mathematics among Primary school students; Cultivate enthusiasm and instil a love for Mathematics; Provide an avenue to challenge and stretch our students’ mathematical potential; Nurture mathematical talents in our youths',
+      year: '2023',
+      link: 'https://drive.google.com/file/d/1YYG-CMcr_A-cjH2gwo6HprMRSTwc4NR-/view?usp=sharing'
+    },
+    {
+      name: 'Raffles Science Olympiad',
+      body: 'The Raffles Science Olympiad is an annual national competition organised by Raffles Institution. The competition is usually held in June. It is opened to all primary school students who have not enrolled in primary six level. The level of difficulty of the competition is pitched at primary five level.',
+      year: '2023',
+      link: 'https://drive.google.com/file/d/1ZVzeCI82fUnvqpJ6sW-uov-fSJOxQCrk/view?usp=sharing'
+    },
+    {
+      name: 'Youth Tech Asia Competition',
+      body: 'The Youth Tech Asia Challenge 2022 is a technology competition aimed at inspiring young innovators across Asia to develop solutions using emerging technologies like AI, IoT, and 3D printing. The challenge emphasizes creativity, problem-solving, and technical skills, encouraging participants to create projects addressing real-world issues.',
+      year: '2022',
+      link: ''
     },
   ],
   education: [
@@ -176,11 +191,8 @@ const config = {
   },
 
   // Optional Footer. Supports plain text or HTML.
-  footer: `Made by eurokid4
-  class="text-primary" href="https://github.com/arifszn/gitprofile"
-  target="_blank"
-  rel="noreferrer"
->GitProfile</a> & <div class="flex items-center"><img src="https://i.ibb.co/L10rd94/TYMLogo-Background.png" width="20" height="20" alt="TYMLogo-Background" border="0" /> <a class="text-primary" href="https://theyoungmaker.com/" target="_blank" rel="noreferrer">The Young Maker </a></div>`,
+  footer: `Made by <a class="text-primary" href="https://github.com/eurokid4" target="_blank" rel="noreferrer">eurokid4 </a>
+ & <div class="flex items-center"><img src="https://i.ibb.co/L10rd94/TYMLogo-Background.png" width="20" height="20" alt="TYMLogo-Background" border="0" /> <a class="text-primary" href="https://theyoungmaker.com/" target="_blank" rel="noreferrer">The Young Maker </a></div>`,
 };
 
 export default config;
